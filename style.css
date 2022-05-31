@@ -1,0 +1,163 @@
+h1 {
+    color: rgb(47, 0, 100);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    margin-top: 50px;
+}
+
+.footer{
+    justify-content: flex-end;
+    margin-top: 300px;
+}
+
+p,h2{
+    text-align: center;
+}
+
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: purple;
+}
+
+.menu{
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.menu a{
+    margin-left: 25px;
+}
+
+.item1{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+.item1 p{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    opacity: 0;
+}
+
+.item1:hover p{
+    opacity:1;
+}
+
+.item1:hover img{
+    opacity:0.5;
+    transform: scale(1.05);
+}
+
+
+.item2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.item2 p{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    opacity: 0;
+}
+
+.item2:hover p{
+    opacity:1;
+}
+
+.item2:hover img{
+    opacity:0.5;
+    transform: scale(1.05);
+}
+
+
+.item4{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 50px;
+}
+
+.item4 p{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    opacity: 0;
+}
+
+.item4:hover p{
+    opacity:1;
+}
+
+.item4:hover img{
+    opacity:0.5;
+    transform: scale(1.05);
+}
+
+.item3{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 50px;
+}
+
+.item3 p{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    opacity: 0;
+}
+
+.item3:hover p{
+    opacity:1;
+}
+
+.item3:hover img{
+    opacity:0.5;
+    transform: scale(1.05);
+}
+
+.descri{
+    margin-left: 700px;
+    margin-top: 200px;
+}
+
+.descri1{
+    margin-left: 700px;
+    margin-top: 400px
+}
+
+.descri2{
+    margin-left: 700px;
+    margin-top: 600px;
+}
+
+.descri3{
+    margin-left: 700px;
+    margin-top: 700px;
+}
+
+.descrip{
+
+    margin-top: 50px;
+}
